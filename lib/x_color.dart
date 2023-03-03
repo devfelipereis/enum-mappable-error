@@ -3,7 +3,7 @@ import 'package:mappable_example/base_token.dart';
 
 part 'x_color.mapper.dart';
 
-@MappableEnum()
+@MappableEnum(caseStyle: CaseStyle.paramCase)
 enum XColor implements BaseToken {
   bzColorBrandAccentColdBackground(
     token: 'bz-color-brand-accent-cold-background',

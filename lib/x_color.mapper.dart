@@ -15,9 +15,9 @@ class XColorMapper extends EnumMapper<XColor> {
   @override
   XColor decode(dynamic value) {
     switch (value) {
-      case 'bzColorBrandAccentColdBackground':
+      case 'bzcolorbrandaccentcoldbackground':
         return XColor.bzColorBrandAccentColdBackground;
-      case 'bzColorBrandAccentColdBasis':
+      case 'bzcolorbrandaccentcoldbasis':
         return XColor.bzColorBrandAccentColdBasis;
       default:
         throw MapperException.unknownEnumValue(value);
@@ -28,9 +28,9 @@ class XColorMapper extends EnumMapper<XColor> {
   dynamic encode(XColor self) {
     switch (self) {
       case XColor.bzColorBrandAccentColdBackground:
-        return 'bzColorBrandAccentColdBackground';
+        return 'bzcolorbrandaccentcoldbackground';
       case XColor.bzColorBrandAccentColdBasis:
-        return 'bzColorBrandAccentColdBasis';
+        return 'bzcolorbrandaccentcoldbasis';
     }
   }
 }

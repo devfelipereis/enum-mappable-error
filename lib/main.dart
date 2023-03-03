@@ -28,6 +28,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    BarcodeStyleMapper.container.link(XColorMapper.container);
+
     const style = BarcodeStyle(
       color: XColor.bzColorBrandAccentColdBackground,
       textColor: XColor.bzColorBrandAccentColdBackground,
